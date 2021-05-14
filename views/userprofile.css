@@ -1,0 +1,116 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+
+header {
+    color: steelblue;
+    font-size: 2em;
+    border: 1px solid black;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+header a {
+    float: right;
+    margin-top: 10px;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+#userImg {
+    margin-top: 20px;
+    border: 1px solid black;
+    max-width: 252px;
+    max-height: 220px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#userImg img {
+    max-width: 252px;
+    max-height: 220px;
+}
+
+#userInfo {
+    margin-top: 150px;
+    width: 500px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#commentSection {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 500px;
+    text-align: left;
+}
+
+#userCommentSection {
+    width: 500px;
+    text-align: left;
+}
+
+#replySection {
+    margin: 150px;
+    width: 500px;
+    text-align: left;
+}
+
+label {
+    font-size: 1.5em;
+    color: steelblue;
+    font-weight: bold;
+}
+
+fieldset a {
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.buttons {
+    display:inline-block;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    padding: 15px 15px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background: steelblue;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+}
+
+.buttons:hover {
+    background-color: dodgerblue;
+    
+}
+
+.editbuttons {
+    display:inline-block;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    padding: 7px 7px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background: steelblue;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+}
+
+.editbuttons:hover {
+    background-color: dodgerblue;
+    
+}

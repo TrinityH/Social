@@ -1,0 +1,38 @@
+
+#formWrapper {
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    position: relative;
+    margin: 150px auto;
+    text-align:center;
+    min-width: 600px;
+    max-width: 600px;
+    padding: 10px;
+   
+}
+
+h1, #blue {
+    color: steelblue;
+}
+
+#btnSubmit {
+    border: 0;
+    outline: none;
+    border-radius: 20%;
+    padding: 15px 15px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background: steelblue;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+    cursor:pointer;
+}
+
+a {
+    text-decoration: none;
+}
+  .error {
+      color: red;
+  }

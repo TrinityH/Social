@@ -1,0 +1,119 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display:inline-block;
+    width: 350px;
+    margin: 150px auto auto 200px;
+    color: steelblue;
+    text-align: center;
+}
+
+header p {
+    color: black;
+    font-size: 2em;
+}
+
+
+
+#formWrapper {
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    display: inline-block;
+    position: absolute;
+    margin: 100px 50px;
+    text-align:center;
+    min-width: 600px;
+    padding: 10px;
+    margin-bottom: 50px;
+   
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label .req {
+    margin: 2px;
+    color: rgb(221, 50, 107);
+  }
+  
+  .error {
+      color: red;
+  }
+
+.buttons {
+    display:inline-block;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    padding: 15px 15px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background: steelblue;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+}
+
+.buttons:hover {
+    background-color: dodgerblue;
+    
+}
+
+#users {
+    float:left;
+}
+  input:focus{
+    outline: 0;
+    border-color: steelblue;
+  }
+  
+table {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+
+tbody td {
+  font-size: 13px;
+}
+
+tr:nth-child(even) {
+  background: lightblue;
+}
+
+thead {
+  background: #1C6EA4;
+}
+
+thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  border-left: 2px solid #D0E4F5;
+}
+
+#userImg {
+    width: 250px;
+    height: 218px;
+    border: 1px solid black;
+}
